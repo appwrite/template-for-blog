@@ -1,0 +1,7 @@
+{
+	"name": "Blog template",
+	"short_name": "Blog",
+	"theme_color": "#ffffff",
+	"background_color": "#19191c",
+	"display": "standalone"
+}

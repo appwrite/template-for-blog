@@ -1,0 +1,14 @@
+{
+	"name": "blurhash",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"blurhash": "^2.0.5",
+		"sharp": "^0.33.5"
+	}
+}
