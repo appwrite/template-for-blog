@@ -18,7 +18,7 @@
 
 <div class="flex w-full flex-col">
 	<div
-		class="mb-16 grid max-w-[1200px] grid-cols-1 gap-8 px-4 md:grid-cols-3 md:items-center xl:mx-[120px] xl:px-0"
+		class="mb-16 grid grid-cols-1 gap-8 px-4 md:grid-cols-3 md:items-center xl:mx-[120px] xl:px-0 2xl:mx-0"
 	>
 		{#each blogPosts as blogPost (blogPost.slug)}
 			{@const author = getAuthorForPost(blogPost)}

@@ -88,7 +88,7 @@
 		href={generatePaginationLink(currentPage + 1)}
 		class:disabled={currentPage === totalPages}
 		data-sveltekit-preload-data="hover"
-		class="pagination-button"
+		class="pagination-button next"
 	>
 		Next
 		<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -104,18 +104,14 @@
 
 <style lang="scss">
 	.pagination-container {
-		margin-top: 60px;
+		width: 100%;
+		margin-top: 15px;
 		margin-bottom: 60px;
 		align-self: center;
 		display: inline-flex;
 		align-items: flex-start;
+		justify-content: center;
 		gap: var(--space-2, 4px);
-
-		@media (max-width: 768px) {
-			align-self: unset;
-			padding-inline: 1rem;
-			justify-content: space-between;
-		}
 	}
 
 	.pagination-button {
@@ -131,6 +127,12 @@
 		justify-content: center;
 		color: #19191c;
 		padding: var(--space-3, 6px) var(--space-4, 8px);
+
+		@media (max-width: 768px) {
+			&.next {
+				margin-right: 2rem;
+			}
+		}
 	}
 
 	:global(html.dark) .pagination-button {

@@ -63,5 +63,5 @@ CSS framework [TailwindCSS](https://tailwindcss.com/) is used for all styling ne
 
 When used with Appwrite, all changes to `main` branch are automatically deployed to production.
 
-Otherwise, use `npm run build` (or `pnpm build` or `yarn build`), and deploy as Node.js server with entrypoint
-`./build/index.js`.
+Otherwise, use `npm run build` (or `pnpm build` or `yarn build`), and deploy as Node.js server with build folder as
+`./build`.

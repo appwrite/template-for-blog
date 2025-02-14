@@ -21,7 +21,7 @@
 </script>
 
 <div
-	class="mb-8 mt-[80px] flex w-full max-w-[1200px] flex-col gap-8 px-4 xl:ms-[120px] xl:px-0
+	class="mb-8 mt-[80px] flex w-full max-w-[1200px] flex-col gap-8 px-4 xl:mx-[120px] xl:px-0 2xl:mx-0
 "
 >
 	<div class="flex flex-col justify-between gap-4 md:flex-row md:items-center">

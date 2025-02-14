@@ -3,7 +3,7 @@
 </script>
 
 <div class="bg-white dark:bg-[#101010]">
-	<div class="border-b-[1px] border-[#EDEDF0] p-4 dark:border-neutral-800">
+	<div class="border-b-[1px] border-[#EDEDF0] p-[16px_20px] dark:border-neutral-800">
 		<!-- Blog Logo -->
 		<div class="flex items-center gap-4 xl:ms-[120px]">
 			<a href="/">

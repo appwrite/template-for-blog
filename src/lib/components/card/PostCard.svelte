@@ -34,16 +34,16 @@
 	href={blogPost.slug}
 	class="flex flex-col items-center gap-6 rounded-2xl border border-[#f4f4f7] bg-white p-3 dark:border-[#2c2c2f] dark:bg-[#1b1b1b]"
 >
-	<div class="relative h-[190px] min-h-[190px] w-full">
+	<div class="relative w-full">
 		<div
-			class="md:h-min-[210px] absolute inset-0 h-[190px] min-h-[190px] rounded-xl bg-cover bg-center transition-opacity duration-500 md:h-[210px]"
+			class="md:h-min-[210px] absolute inset-0 h-[190px] min-h-[190px] rounded-lg bg-cover bg-center transition-opacity duration-500 md:h-[210px]"
 			style="background-image: url({blogPost.blurhash}); opacity: {loaded ? 0 : 1};"
 		></div>
 
 		<!-- Main Image (with fade-in transition) -->
 		<img
 			bind:this={imgEl}
-			class="md:h-min-[210px] h-[190px] min-h-[190px] w-full self-stretch rounded-xl bg-cover object-cover transition-opacity duration-500 md:h-[210px]"
+			class="md:h-min-[210px] h-[190px] min-h-[190px] w-full self-stretch rounded-lg bg-cover object-cover transition-opacity duration-500 md:h-[210px]"
 			src={blogPost.coverImage}
 			alt={blogPost.title}
 			loading="lazy"

@@ -38,7 +38,7 @@
 	class="prose mx-auto my-16 flex max-w-full flex-col gap-8 px-5 before:prose-p:content-none after:prose-p:content-none xl:px-0"
 >
 	<img
-		class="mx-auto my-0 block h-[210px] w-full rounded-xl bg-cover object-cover md:h-[706px] md:w-[1200px]"
+		class="mx-auto my-0 block h-[210px] w-full rounded-xl bg-cover object-cover md:h-[500px] md:w-[1200px]"
 		src={blogPost.coverImage}
 		alt={blogPost.title}
 		style={`view-transition-name: cover-image-${blogPost.slug}`}

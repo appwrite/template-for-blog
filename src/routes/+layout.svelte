@@ -36,7 +36,7 @@
 	<FeaturedPostCard featuredBlogPost={featuredPost} author={featuredPostAuthor} />
 </SiteHeader>
 
-<main class="h-full">
+<main class="h-full 2xl:mx-auto 2xl:w-[1200px]">
 	{@render children()}
 </main>
 
